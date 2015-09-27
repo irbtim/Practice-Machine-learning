@@ -88,7 +88,7 @@ Random Forest algorithm performed better than Decision Trees
 Random Forest model was 0.995 (95% CI: (0.993, 0.997))
 Decision Tree model was 0.739 (95% CI: (0.727, 0.752))
 
-Random Forest is better and the expected out-of-sample error is estimated at 0.5%
+Random Forest is better and the expected out-of-sample error is estimated at 0.5%. The expected out-of-sample error is calculated as 1 - accuracy for predictions made against the cross-validation set. Our Test data set comprises 20 cases. With an accuracy above 99% on our cross-validation data, we can expect that very few, or none, of the test samples will be missclassified.
 
 ###create second model
 ```{r}
